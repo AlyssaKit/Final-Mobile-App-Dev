@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/gameFragment">
+
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="edu.oregonstate.cs492.final_project.ui.HomePageFragment"
+        android:label="Home Page"
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_homePageFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="edu.oregonstate.cs492.final_project.ui.GameFragment"
+        android:label="Game"
+        tools:layout="@layout/fragment_game" />
+
+    <fragment
+        android:id="@+id/scoreHistoryFragment"
+        android:name="edu.oregonstate.cs492.final_project.ui.ScoreHistoryFragment"
+        android:label="Score History"
+        tools:layout="@layout/fragment_score_history" />
+
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="edu.oregonstate.cs492.final_project.ui.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@xml/settings" />
+
+
+</navigation>

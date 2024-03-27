@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">final_project</string>
+    <string name="fully_correct">Correct! Score: %1$f/%2$f</string>
+    <string name="partially_correct">Close! Score: %1$f/%2$f</string>
+    <string name="incorrect">Incorrect! Score: %1$f/%2$f</string>
+    <string name="sparkle">sparkle</string>
+    <string name="user_name"><font color="#FFFFFF" size="50">username</font></string>
+    <string name="pref_userName"><font color="#FFFFFF" size="30">Username</font></string>
+    <string name="pref_category_Movies"><font color="#FFFFFF" size="40">App Settings</font></string>
+    <string name="label_settings">App Settings</string>
+</resources>

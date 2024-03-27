@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.oregonstate.cs492.final_project.ui.HomePageFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:src="@drawable/cinema_with_popcorn_box_23_2148133623"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.076"
+            tools:layout_editor_absoluteX="0dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="345dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nicomoji_regular"
+            android:gravity="center"
+            android:text="R-Rating Game"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="315dp"
+            android:fontFamily="@font/nicomoji_regular"
+            android:gravity="center"
+            android:text="How To Play"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="328dp"
+            android:layout_height="201dp"
+            android:layout_marginTop="360dp"
+            android:gravity="center"
+            android:text="This is how you play the game. You do this that and then the other. Then you scream and cry. Then you go get ice cream to drown your tears. Then you call your mom or dad and tell them your life story. Lastly, you hug your cat and try not to feel judged.
+Have fun :)"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="281dp"
+            android:layout_height="52dp"
+            android:fontFamily="@font/nicomoji_regular"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.826" />
+
+        <Button
+            android:id="@+id/play_game_button"
+            android:layout_width="205dp"
+            android:layout_height="70dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="Play Game"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.927" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
